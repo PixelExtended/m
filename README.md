@@ -1,14 +1,27 @@
-# Pixel Experience #
+# Pixel Extended #
+<img src="https://imgur.com/likQDEZ.png">
+
+### Initialize local repository ###
+
+```bash
+repo init -u https://github.com/PixelExtended/manifest -b eleven
+```
+ or you can do a shallow clone if you dont't have much bandwidth
+```bash
+repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
+```
+Shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull.
+
+So if we are providing argument of `-- depth 1` to the repo init command it will copy only the latest revision of a repo.
 
 ### Sync ###
 
 ```bash
-
-# Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b eleven
-
-# Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+You can just use `repo sync` or above command, but this will save you from lot of terminal spam, data and time.
+```bash
+repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build ###
@@ -24,49 +37,13 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
+### Maintainership ###
 
-### Submitting Patches ###
+If You wish to maintain PixelExtended For your device Officially , Contact @heisinbug on telegram with your trees and device name .
 
-Patches are always welcome!  Please submit your patches to our Gerrit.
+Some Things to Consider before applying :- 
 
-To start contributing, just register at https://gerrit.pixelexperience.org
+1. Tree Should be maintained properly with authorship .
+2. You should be able to fix your device specific issue on your own , saying "me nuub" isn't fun anymore.
 
-Open up terminal to create your ssh keys required for submitting patches to gerrit and type in:
-
-```bash
-git config --global review.gerrit.pixelexperience.org.username <username you registered with>
-
-git config --global review.gerrit.pixelexperience.org.email <your email you registered with>
-
-ssh-keygen -t rsa -C "your@email.com"
-```
-
-In our gerrit click on your "Avatar" on the top right, then on "Settings".
-
-While in 'Settings' Click on "SSH Public Keys" on the left hand side and then on "Add Key".
-
-Now on your computer navigate to your home "~/.ssh" and open up "id_rsa.pub", copy/paste the context to "Gerrit SSH Public Keys".
-
-You can send patches to us by using these commands in terminal:
-
-```
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    pixelgerrit push eleven
-
-    or
-
-    git push ssh://<username>@gerrit.pixelexperience.org:29418/<project> HEAD:refs/for/<branch>
-```
-
-* `<username>` - Your Gerrit username (which can be seen/set [here](https://gerrit.pixelexperience.org/#/settings/))
-* `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://gerrit.pixelexperience.org/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `eleven`
-
-Make your changes and commit with a detailed message, starting with what you are working with
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-For more help, use this commands: `pixelgerrit help` or `pixelrebase help`
-
-[View Code Review](https://gerrit.pixelexperience.org/)
+That's it , Happy Cooking .
