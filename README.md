@@ -39,7 +39,7 @@ $ mka bacon -jX
 ```
 ### Maintainership ###
 
-If You wish to maintain PixelExtended For your device Officially , Contact @heisinbug on telegram with your trees and device name .
+If You wish to maintain PixelExtended For your device Officially **Form can be found here:** [Maintainership Application Form](https://docs.google.com/forms/d/e/1FAIpQLScLH2gdeB6FzkOXTrYbBdzReLGgNiD5GiYrMesHLFt8SFDMlw/viewform)
 
 Some Things to Consider before applying :- 
 
