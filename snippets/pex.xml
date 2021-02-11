@@ -13,6 +13,10 @@
   <remote name="posp"
           fetch="https://github.com/PotatoProject/"
           revision="refs/heads/dumaloo-release" />
+
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/elle" />
   
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
@@ -100,6 +104,7 @@
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="pex" revision="ten-plus" />
   <project path="external/motorola/faceunlock" name="saikiran2001/android_external_motorola_faceunlock" remote="gitlab" revision="11"/>
   <project path="external/toybox" name="external_toybox" remote="pixel" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
