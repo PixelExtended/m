@@ -105,6 +105,7 @@
   <project path="external/motorola/faceunlock" name="saikiran2001/android_external_motorola_faceunlock" remote="gitlab" revision="11"/>
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
+  <project path="external/exfat" name="external_exfat" remote="pixel" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
@@ -173,6 +174,8 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
+  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />  
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/RavenLair" name="Fan-Edition_Settings" remote="pex" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />

@@ -843,5 +843,4 @@
 
   <!-- Add all PixelExtended repos -->
   <include name="snippets/pex.xml" />
-
 </manifest>
