@@ -102,11 +102,11 @@
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="pex" revision="ten-plus" />
-  <project path="external/motorola/faceunlock" name="saikiran2001/android_external_motorola_faceunlock" remote="gitlab" revision="11"/>
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
-
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" remote="pex" />
@@ -171,6 +171,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="pixel" />
