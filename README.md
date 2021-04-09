@@ -1,3 +1,5 @@
+ [![Download Pixel Extended-ROM](https://img.shields.io/sourceforge/dm/pixelextended.svg)](https://sourceforge.net/projects/pixelextended/files/latest/download)
+
 # Pixel Extended #
 <img src="https://imgur.com/likQDEZ.png">
 
