@@ -101,7 +101,7 @@
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
-  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="pex" revision="ten-plus" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="pex" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
