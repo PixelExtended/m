@@ -106,6 +106,7 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="evo" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/pulse" name="external_pulse" remote="pex" />
   
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
