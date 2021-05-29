@@ -227,6 +227,8 @@
   <!-- OTA Repos -->
   <project path="OTA" name="OTA" remote="pex" >
       <linkfile src="ota.sh" dest="ota.sh" />
+      <linkfile src="banner/MainBannerFinal.png" dest="banner.png" />
+      <linkfile src="support/maintainers.md" dest="maintainers.md" />
   </project>
 
 </manifest>
