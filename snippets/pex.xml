@@ -139,7 +139,10 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
   <project path="manifest" name="manifest" remote="pex" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pex" >
+      <linkfile src="tools/build.py" dest="build.py" />
+      <linkfile src="tools/build.sh" dest="build.sh" />
+  </project>
   <project path="vendor/gapps" name="darkbeast69/vendor_gapps" remote="gitlab" clone-depth="1" revision="eleven" />
   <project path="vendor/overlay" name="vendor_custom_overlay" remote="pex" />
   <project path="vendor/custom-preference" name="vendor_support" remote="pex" />
@@ -220,5 +223,10 @@
 
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
+
+  <!-- OTA Repos -->
+  <project path="OTA" name="OTA" remote="pex" >
+      <linkfile src="ota.sh" dest="ota.sh" />
+  </project>
 
 </manifest>
