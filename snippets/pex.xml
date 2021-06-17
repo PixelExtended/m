@@ -5,6 +5,11 @@
           fetch="https://github.com/PixelExperience"
           revision="eleven"
           review="gerrit.pixelexperience.org" />
+  
+  <remote name="pixel-plus"
+          fetch="https://github.com/PixelExperience"
+          revision="eleven-plus"
+          review="gerrit.pixelexperience.org" />
 
   <remote name="pex"
           fetch="https://github.com/PixelExtended/"
