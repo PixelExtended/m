@@ -106,7 +106,6 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pex" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
-  <project path="external/pulse" name="external_pulse" remote="pex" />
   
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
@@ -188,7 +187,7 @@
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pex" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="pex" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel-plus" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pex" />
@@ -221,8 +220,4 @@
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
 
-  <!-- OTA Repos -->
-  <project path="OTA" name="OTA" remote="pex" >
-      <linkfile src="ota.sh" dest="ota.sh" />
-  </project>
 </manifest>
