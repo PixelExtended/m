@@ -15,13 +15,9 @@
           fetch="https://github.com/PixelExtended/"
           revision="refs/heads/eleven" />
 
-  <remote name="posp"
-          fetch="https://github.com/PotatoProject/"
-          revision="refs/heads/dumaloo-release" />
-
-  <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
-           revision="refs/heads/elle" />
+  <remote  name="AOSPA"
+           fetch="https://github.com/AOSPA"
+           revision="refs/heads/master" />
   
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
@@ -208,6 +204,8 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="AOSPA" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="AOSPA" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="pixel" />
