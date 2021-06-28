@@ -224,5 +224,9 @@
 
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
+  
+  <!-- OTA Repos -->
+  <project path="OTA" name="OTA" remote="pex" revision="eleven" >
+      <linkfile src="support/ota.py" dest="ota.py" />
 
 </manifest>
