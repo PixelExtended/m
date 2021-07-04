@@ -228,5 +228,5 @@
   <!-- OTA Repos -->
   <project path="OTA" name="OTA" remote="pex" revision="eleven" >
       <linkfile src="support/ota.py" dest="ota.py" />
-
+</project>
 </manifest>
