@@ -37,6 +37,10 @@
   <remote  name="AOSPA"
            fetch="https://github.com/AOSPA"
            revision="refs/heads/master" />
+  
+   <remote name="ext"
+          fetch="https://github.com/exthmui/"
+          revision="exthm-11" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
@@ -177,6 +181,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
+  <project path="packages/apps/SoftAPManager" name="android_packages_apps_SoftAPManager" remote="ext" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
