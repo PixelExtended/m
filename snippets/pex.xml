@@ -220,7 +220,7 @@
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
-  <project path="system/netd" name="system_netd" remote="pixel-plus" />
+  <project path="system/netd" name="system_netd" remote="pex" revision="eleven-plus" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
