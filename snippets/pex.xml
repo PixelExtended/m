@@ -181,7 +181,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
-  <project path="packages/apps/SoftAPManager" name="android_packages_apps_SoftAPManager" remote="pex" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="pex" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="pex" />
