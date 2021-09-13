@@ -8,11 +8,14 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-11.0.0_r40"
+  <default revision="refs/tags/android-11.0.0_r43"
            remote="aosp"
            sync-j="4"
            sync-c="true"
            sync-f="true" />
+
+  <superproject name="platform/superproject" remote="aosp"/>
+  <contactinfo bugurl="go/repo-bug" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
