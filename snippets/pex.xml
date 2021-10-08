@@ -237,7 +237,6 @@
    <!-- Custom Repos -->
    <project path="vendor/overlay" name="vendor_custom_overlay" remote="pex" />
    <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="pex" />
-   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="pex" revision="lineage-18.1" />
    <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pex" />
    <!-- OTA Repos -->
   <project path="OTA" name="OTA" remote="pex" revision="eleven" >
