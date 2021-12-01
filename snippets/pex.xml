@@ -15,4 +15,5 @@
   <project path="vendor/custom-preference" name="vendor_support" remote="pex" />
   <project path="frameworks/av" name="frameworks_av" remote="pex" />
   <project path="external/selinux" name="external_selinux" remote="pex" />
+  <project path="system/core" name="system_core" remote="pex" />
 </manifest>
