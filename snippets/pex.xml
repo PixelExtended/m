@@ -5,7 +5,7 @@
           fetch="https://github.com/PixelExtended"
           revision="snow" />
 
-<!-- Custom repos -->
+  <!-- Custom repos -->
   <project path="manifest" name="manifest" remote="pex" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
   <project path="frameworks/base" name="frameworks_base" remote="pex" />
@@ -20,7 +20,10 @@
   <project path="system/core" name="system_core" remote="pex" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
 
-<!-- HAL projects for msm8953 -->
+  <!-- External Repos -->
+  <project path="external/erofs-utils" name="external_erofs-utils" remote="pex" />
+
+  <!-- HAL projects for msm8953 -->
   <project path="hardware/qcom-caf/msm8953/audio" name="hardware_qcom-caf_msm8953_audio" remote="pex" />
   <project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom-caf_msm8953_display" remote="pex" />
   <project path="hardware/qcom-caf/msm8953/media" name="hardware_qcom-caf_msm8953_media" remote="pex" />
