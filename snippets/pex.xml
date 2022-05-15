@@ -17,6 +17,7 @@
   <project path="vendor/custom-preference" name="vendor_support" remote="pex" />
   <project path="vendor/overlays" name="vendor_custom_overlay" remote="pex" />
   <project path="system/core" name="system_core" remote="pex" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
   <!-- OTA Repos -->
   <project path="OTA" name="OTA" remote="pex" revision="snow" >
       <linkfile src="support/ota.py" dest="ota.py" />
