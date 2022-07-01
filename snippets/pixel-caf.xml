@@ -16,7 +16,6 @@
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="pixel" />
 
   <!-- Hardware repos -->
-  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="pixel" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="pixel" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="pixel" />
