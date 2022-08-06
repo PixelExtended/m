@@ -20,6 +20,7 @@
   <project path="system/core" name="system_core" remote="pex" />
   <project path="system/extras" name="system_extras" remote="pex" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pex" />
 
   <!-- External Repos -->
   <project path="external/erofs-utils" name="external_erofs-utils" remote="pex" />
