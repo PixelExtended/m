@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pex"
+          fetch="https://github.com/PixelExtended"
+          revision="trece" />
+
+<!-- Custom repos -->
+  <project path="manifest" name="manifest" remote="pex" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
+  <project path="frameworks/base" name="frameworks_base" remote="pex" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
+  <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" />
+
+</manifest>
