@@ -8,6 +8,7 @@
 <!-- Custom repos -->
   <project path="manifest" name="manifest" remote="pex" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
+   <project path="vendor/custom-preference" name="vendor_support" remote="pex" revision="snow"/>
   <project path="frameworks/base" name="frameworks_base" remote="pex" />
   <project path="frameworks/av" name="frameworks_av" remote="pex" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
