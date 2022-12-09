@@ -16,6 +16,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
   <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pex" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pex" />
   <project path="system/core" name="system_core" remote="pex" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pex" />
 
