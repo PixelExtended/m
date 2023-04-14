@@ -16,6 +16,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
   <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" />
   <project path="vendor/overlays" name="vendor_overlays" remote="pex"/>
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pex" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pex" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pex" />
