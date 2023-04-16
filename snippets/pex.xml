@@ -8,6 +8,10 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS" />
 
+  <remote name="pixelextended-devices"
+          fetch="https://github.com/PixelExtended-Devices"
+          revision="trece" />
+
 <!-- Custom repos -->
   <project path="manifest" name="manifest" remote="pex" revision="trece" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pex" /> 
