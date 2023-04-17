@@ -5,6 +5,9 @@
           fetch="https://github.com/PixelExtended"
           revision="trece" />
 
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
+
 <!-- Custom repos -->
   <project path="manifest" name="manifest" remote="pex" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
