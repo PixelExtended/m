@@ -1,14 +1,31 @@
-# Pixel Experience #
+ [![Download Pixel Extended-ROM](https://img.shields.io/sourceforge/dm/pixelextended.svg)](https://sourceforge.net/projects/pixelextended/files/latest/download)
+
+# Pixel Extended #
+<p align="center" width="100%">
+    <img width="33%" src="banner.gif">
+</p>
+
+### Initialize local repository ###
+
+```bash
+repo init -u https://github.com/PixelExtended/manifest -b ufo
+```
+ or you can do a shallow clone if you dont't have much bandwidth
+```bash
+repo init -u https://github.com/PixelExtended/manifest -b ufo --depth=1
+```
+Shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull.
+
+So if we are providing argument of `-- depth 1` to the repo init command it will copy only the latest revision of a repo.
 
 ### Sync ###
 
 ```bash
-
-# Initialize local repository
-repo init -u https://github.com/PixelExperience-Staging/manifest -b fourteen
-
-# Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+You can just use `repo sync` or above command, but this will save you from lot of terminal spam, data and time.
+```bash
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build ###
@@ -24,38 +41,3 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-
-### Gerrit staging setup
-
-If you haven't yet successfully downloaded the source and generated a build of PixelExperience, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
-
-Setup an account on [Gerrit Staging](https://gerrit-staging.pixelexperience.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
-
-Now make sure your local git username matches with your Gerrit username:
-
-```
-git config --global user.email 'you@yourDomain.com'
-git config --global review.gerrit-staging.pixelexperience.org.username "gerritUsername"
-```
-
-NOTE; Your Gerrit username is case-sensitive.
-
-If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
-
-Generate the SSH keys:
-
-```
-ssh-keygen -t rsa -C "your@email.com"
-```
-
-Add the keys to the ssh-agent:
-
-```
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
-ssh-add
-```
-
-After that, copy/paste the content of `~/.ssh/id_rsa.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
-
-The steps above have to be performed only once.

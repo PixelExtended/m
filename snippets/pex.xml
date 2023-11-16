@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixelextended-devices"
+          fetch="https://github.com/PixelExtended-Devices"
+          revision="ufo" />
+
+  <remote name="pex"
+          fetch="https://github.com/PixelExtended"
+          revision="ufo" />
+
+  <!-- General repos -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="pex" />
+  <project path="manifest" name="manifest" remote="pex" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pex" />
+
+  <!-- OTA Repos -->
+  <project path="OTA" name="OTA" remote="pex" revision="main" >
+    <linkfile src="support/ota.py" dest="ota.py" />
+  </project>
+
+</manifest>
